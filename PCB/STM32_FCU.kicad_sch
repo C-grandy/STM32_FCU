@@ -6,8 +6,8 @@
 	(paper "A")
 	(lib_symbols)
 	(sheet
-		(at 115.57 83.82)
-		(size 38.1 29.21)
+		(at 200.152 71.12)
+		(size 40.894 17.272)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -18,22 +18,68 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 0 194 0 0.5019607843)
 		)
-		(uuid "4bee1ff5-d12e-4383-ac49-7df9404ddf1e")
-		(property "Sheetname" "MCU"
-			(at 115.57 83.1084 0)
+		(uuid "3c601fc3-3dcd-4594-a6a2-1e9a7daf7fae")
+		(property "Sheetname" "Sensor - IMU"
+			(at 200.152 69.7734 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensor-IMU.kicad_sch"
+			(at 200.152 88.9766 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STM32_FCU"
+				(path "/9fd53907-6a99-448d-8671-d17de9d6fa45"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 135.128 62.738)
+		(size 38.1 73.152)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 132 132 0.5019607843)
+		)
+		(uuid "4bee1ff5-d12e-4383-ac49-7df9404ddf1e")
+		(property "Sheetname" "MCU"
+			(at 135.128 61.3914 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 115.57 113.6146 0)
+			(at 135.128 136.4746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52,8 +98,8 @@
 		)
 	)
 	(sheet
-		(at 51.308 83.566)
-		(size 40.386 28.448)
+		(at 58.42 39.116)
+		(size 32.258 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -64,22 +110,22 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 255 229 191 0.5019607843)
 		)
 		(uuid "7272a036-0cd8-4a4f-a895-6bfae3d56c11")
 		(property "Sheetname" "Power"
-			(at 51.308 82.8544 0)
+			(at 58.42 37.7694 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.54 2.54)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "FCU_Power.kicad_sch"
-			(at 51.308 112.5986 0)
+			(at 58.42 62.5606 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -93,6 +139,98 @@
 			(project "STM32_FCU"
 				(path "/9fd53907-6a99-448d-8671-d17de9d6fa45"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 60.198 84.836)
+		(size 29.21 15.494)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 132 0 132 0.5019607843)
+		)
+		(uuid "a0d13205-0eb5-4072-9d5d-7e5633f1caac")
+		(property "Sheetname" "Interface-USB"
+			(at 60.198 83.4894 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Interface-USB.kicad_sch"
+			(at 60.198 100.9146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STM32_FCU"
+				(path "/9fd53907-6a99-448d-8671-d17de9d6fa45"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 199.898 99.568)
+		(size 40.894 17.526)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 194 0 0.5019607843)
+		)
+		(uuid "c0f4d30f-431b-4255-a6cd-32bf77b1bbde")
+		(property "Sheetname" "Sensor - Barometer"
+			(at 199.898 98.2214 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensor-Barometer.kicad_sch"
+			(at 199.898 117.6786 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STM32_FCU"
+				(path "/9fd53907-6a99-448d-8671-d17de9d6fa45"
+					(page "6")
 				)
 			)
 		)

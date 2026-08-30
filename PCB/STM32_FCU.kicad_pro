@@ -429,7 +429,7 @@
         "uuid": "9fd53907-6a99-448d-8671-d17de9d6fa45"
       }
     ],
-    "used_designators": "U1-3,L1,#PWR1-12,C1-11,R1-2",
+    "used_designators": "U1-4,L1,#PWR1-21,C1-16,J1,R1-8,Y1",
     "variants": []
   },
   "sheets": [
@@ -444,6 +444,18 @@
     [
       "7272a036-0cd8-4a4f-a895-6bfae3d56c11",
       "Power"
+    ],
+    [
+      "a0d13205-0eb5-4072-9d5d-7e5633f1caac",
+      "Interface-USB"
+    ],
+    [
+      "3c601fc3-3dcd-4594-a6a2-1e9a7daf7fae",
+      "Sensor - IMU"
+    ],
+    [
+      "c0f4d30f-431b-4255-a6cd-32bf77b1bbde",
+      "Sensor - Barometer"
     ]
   ],
   "text_variables": {},
