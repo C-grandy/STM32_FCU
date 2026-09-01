@@ -429,7 +429,7 @@
         "uuid": "9fd53907-6a99-448d-8671-d17de9d6fa45"
       }
     ],
-    "used_designators": "U1-4,L1,#PWR1-21,C1-16,J1,R1-8,Y1",
+    "used_designators": "U1-5,L1,#PWR1-24,C1-19,J1,R1-8,Y1",
     "variants": []
   },
   "sheets": [
@@ -456,6 +456,10 @@
     [
       "c0f4d30f-431b-4255-a6cd-32bf77b1bbde",
       "Sensor - Barometer"
+    ],
+    [
+      "09a84deb-c8ec-45e6-8283-ba78c1aaf443",
+      "Sensors - External Sensors"
     ]
   ],
   "text_variables": {},
